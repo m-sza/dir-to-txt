@@ -25,7 +25,7 @@ This Python script traverses through the files and folders of a specified direct
 
 - Enter the directory path: /path/to/your/directory
 - Enter the output file name: output.txt
-- Enter exception files/directories (comma-separated): .git,.env
+- Enter exception files/directories (comma-separated): .git, .env
 - Enter file types to include (comma-separated) or 'all' to include all file types: py, txt
 
 This will traverse the `/path/to/your/directory` directory, exclude the `.git`, `node_modules`, and `.env` files/directories, and include only the files with extensions `.py` and `.txt`. The output will be saved to `output.txt`.
